@@ -2,6 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -18,6 +19,7 @@ Here's some additonal text
 
 ```{r}
 rnorm(10)
+## ![](images/profile.PNG)
 ```
 
 ## Links to other websites
@@ -29,13 +31,23 @@ Let's link to useful tools for data science
 
 ## Local image
 
-![](images/profile.PNG)
+Use html directly allows you to change image size
+
+<img src="images/profile.PNG" style="width:75%">
 
 ## Link to page within the site
 
 [About me](about.html)
 
+## Quarterly Results {.tabset}
 
+### By Product
 
+This is my first tab
 
+### By Region
+
+This is my second tab
+
+## This is a new section
 
