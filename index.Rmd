@@ -8,35 +8,34 @@ output:
 
 # This is Jeff's awesome website
 
+Add some extra text
+
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-NOW I CAN PUT STUFF ON THE INTERNET
+## Here's a subsection
 
-This is an awesome website about data science and elmo?
+Here's some additonal text
 
-Sometimes I use [google](https://google.com/) to do data science when I'm stuck.
+```{r}
+rnorm(10)
+```
 
+## Links to other websites
 
-# Local image
+Let's link to useful tools for data science
 
-This should be a picture.
+* [Google](https://www.google.com/)   
+* [P8105](https://p8105.com/)
 
-![](images/image.jpg)
+## Local image
 
-<img src="images/image.jpg" style="width:75%">
+![](images/profile.PNG)
 
+## Link to page within the site
 
-
-# Knit the whole website
-
-Restart R studio, and find `Build Website` to reknit everything.
-
-
-# Link to page within the site
-
-If you'd like to learn more about this website, visit [this page](about.html)
+[About me](about.html)
 
 
-# Repository name
 
-Important: use correct repository name, e.g. lampfish226.github.io/project1
+
+
